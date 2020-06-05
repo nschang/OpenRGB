@@ -13,6 +13,7 @@
 
 #include <vector>
 #include "i2c_smbus.h"
+#include "FanController.h"
 #include "RGBController.h"
 #include "ProfileManager.h"
 #include "NetworkClient.h"
