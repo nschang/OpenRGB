@@ -17,6 +17,9 @@
 
 #ifdef __APPLE__
 #include <unistd.h>
+#ifdef MSG_NOSIGNAL
+#undef MSG_NOSIGNAL
+#endif
 #define MSG_NOSIGNAL 0
 #endif
 
